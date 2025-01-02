@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>platoboost.driver</PackageId>
+        <Title>Platoboost .NET Driver</Title>
+        <Description>A library for .NET 8.0 for integration with https://platoboost.com.</Description>
+        <Copyright>Platoboost © 2025</Copyright>
+        <PackageLicenseUrl></PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/platoboost/net-driver</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="System.Management" Version="9.0.0"/>
+    </ItemGroup>
+
+</Project>
